@@ -1,4 +1,4 @@
-name: bd16-mlops
+name: bd16-mlops-v2
 channels: 
   - defaults 
   - conda-forge 
@@ -10,7 +10,4 @@ dependencies:
   - wheel 
   - poppler 
   - pip: 
-    - fastapi==0.115.6
-    - mlflow==2.18.0
-    - transformers==4.47.0
-    - torch==2.5.1
+    - mlflow==3.10.0
